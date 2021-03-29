@@ -1,3 +1,30 @@
+# TEXT
+installing node
+npm install -g @angular/cli
+vs code run as admin, extention angular essentials
+
+installing	ng new boiler-plate-angular
+install bootstrap	copy bs folder in asset and call in index.html
+componenet	ng g c nav-bar
+routing
+data tables
+
+api connect	
+1) import { HttpClientModule } from '@angular/common/http'; and declare HttpClientModule in app.module.ts
+2) ng g s api
+3) private httpClient: HttpClient in constructor of api.service
+4) function banana he constructor ke baad
+ getTodos(){
+    return this.httpClient.get(`${this.REST_API_SERVER}/dashboard`);
+  }
+
+prod	ng build --prod --base-href "/clickCounter/"
+
+
+
+
+****
+
 # BoilerPlateAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
